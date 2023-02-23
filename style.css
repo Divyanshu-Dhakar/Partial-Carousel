@@ -1,0 +1,38 @@
+.carousel-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 400%;
+}
+
+.carousel-slide img {
+  width: 25%;
+  height: auto;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+}
